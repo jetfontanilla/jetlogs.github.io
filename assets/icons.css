@@ -1,0 +1,74 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: text-bottom;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 0.3em;
+}
+
+.icon-github {
+    background-image: url(github.png);
+}
+
+.icon-npm {
+    background-image: url(npm.png);
+}
+
+.language {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 0.3em;
+    border-radius: 50%;
+}
+
+.language-javascript {
+    background-color: #f1e05a;
+}
+
+.language-typescript {
+    background-color: #2b7489;
+}
+
+.language-lua {
+    background-color: #000080;
+}
+
+.language-go {
+    background-color: #375eab;
+}
+
+.language-css {
+    background-color: #563d7c;
+}
+
+.language-html {
+    background-color: #e34c26;
+}
+
+.language-java {
+    background-color: #b07219;
+}
+
+.language-scala {
+    background-color: #DC322F;
+}
+
+.language-perl {
+    background-color: #0298c3;
+}
+
+.language-php {
+    background-color: #4F5D95;
+}
+
+.language-c {
+    background-color: #555555;
+}
+
+.language-rust {
+    background-color: #dea584;
+}

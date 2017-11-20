@@ -1,0 +1,10 @@
+header {
+    height: 20em;
+    background: rgb(58, 120, 193) url(lighthouse.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.card-footer small {
+    margin-right: 0.5em;
+}
+
