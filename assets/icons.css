@@ -3,8 +3,8 @@
     height: 1em;
     display: inline-block;
     vertical-align: text-bottom;
-    background-size: contain;
-    background-position: center center;
+    background-size: auto 100%;
+    background-position: center left;
     margin-right: 0.3em;
 }
 
@@ -16,13 +16,18 @@
     background-image: url(npm.png);
 }
 
+.icon-linkedin {
+    background-image: url(linkedin.png);
+}
+
 .language {
     width: 1em;
     height: 1em;
     display: inline-block;
-    vertical-align: text-bottom;
-    margin-right: 0.3em;
+    vertical-align: -0.1em;
+    margin-right: 0.4em;
     border-radius: 50%;
+    box-shadow: 1px 1px #aaa;
 }
 
 .language-javascript {

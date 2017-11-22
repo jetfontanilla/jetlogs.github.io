@@ -2,18 +2,58 @@ header {
     height: 20em;
     background: rgb(58, 120, 193) url(lighthouse.jpg) no-repeat center center;
     background-size: cover;
+    border-bottom: 3px #fff solid;
+}
+
+.nav {
+    margin-bottom: 3em;
+    background-color: rgb(136, 136, 68);
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.nav a {
+    color: #fff;
+    font-weight: 600;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+.card {
+    width: 30%;
+}
+
+.card-footer {
+    background-color: rgba(58, 120, 193, 0.05);
+    color: #333;
+}
+
+.card:hover .card-body {
+    background-color: #ffd;
+}
+
+.card:hover .card-footer {
+    background-color: rgba(58, 120, 193, 0.2);
+    color: #333;
 }
 
 .card-footer small {
     margin-right: 0.5em;
 }
 
+h2 {
+    font-family: "Roboto Slab", serif;
+}
+
 .author {
     font-weight: bold;
     font-size: 0.7em;
     color: #fff;
-    background: #993333;
-    background: linear-gradient(to top, #993333,  #ff2d27);
+    background: rgb(34, 101, 156);
+    background: linear-gradient(to top, rgb(20, 60, 120),  rgb(58, 120, 193));
     letter-spacing: 0.5em;
     text-transform: uppercase;
     position: absolute;
