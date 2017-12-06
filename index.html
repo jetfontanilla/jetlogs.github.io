@@ -19,22 +19,33 @@
     <link rel="shortcut" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
+    <div class="container p-0">
 
         <header>
             <a name="#top"></a>
         </header>
 
-        <nav class="nav d-flex">
-            <a class="nav-link" href="#contributions">Contributions</a>
-            <a class="nav-link" href="#contact">Contact</a>
+        <nav class="nav navbar-expand-md navbar-light d-flex">
+            <button class="navbar-toggler navbar-toggler-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navigationContent"
+                    aria-controls="navigationContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navigationContent" class="collapse navbar-collapse">
+                <a class="nav-link" href="#contributions">Contributions</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
             <a class="nav-link ml-auto" href="#top">Back to Top &#x25B2;</a>
         </nav>
 
         
         <section class="px-3 d-flex flex-wrap justify-content-start">
             <h2 class="py-3 w-100"><a name="contributions">Open Source Contributions</a></h2>
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="author text-center px-3 py-1">Author</div>
                 <div class="card-body">
                     <h4 class="card-title">rx-countdown</h4>
@@ -56,7 +67,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="author text-center px-3 py-1">Author</div>
                 <div class="card-body">
                     <h4 class="card-title">bgiframe-native</h4>
@@ -78,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="card-body">
                     <h4 class="card-title">Video.js</h4>
                     <p class="card-text">open source HTML5 &amp; Flash video player used on over 400,000 websites.</p>
@@ -98,7 +109,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="card-body">
                     <h4 class="card-title">Microsoft Edge Demos</h4>
                     <p class="card-text">New web features (supported by Microsoft Edge) in a way that work across all modern browsers.</p>
@@ -114,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="card-body">
                     <h4 class="card-title">Assets Webpack Plugin</h4>
                     <p class="card-text">Webpack plugin that emits a json file with assets paths.</p>
@@ -134,7 +145,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="card-body">
                     <h4 class="card-title">Input Switcher</h4>
                     <p class="card-text">Add-on for Tree of Savior. additional chat commands, countdown tracker, and more.</p>
@@ -149,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="card-body">
                     <h4 class="card-title">LKChat</h4>
                     <p class="card-text">Add-on for Tree of Savior. Anti-spam bot blocker, and chat improvements.</p>
@@ -164,7 +175,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="card-body">
                     <h4 class="card-title">poeditor-connector</h4>
                     <p class="card-text">Connect javascript applications with poeditor.com for easy internationalization support.</p>
@@ -184,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="card m-3">
+            <div class="card m-md-3 my-2">
                 <div class="card-body">
                     <h4 class="card-title">Classic-ASP-VBScript-OAuth</h4>
                     <p class="card-text">OAuth 1.0 libraries for VBScript</p>
@@ -227,5 +238,9 @@
         <footer></footer>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
